@@ -41,3 +41,36 @@ console.log(typeof(null)); // object
 console.log(typeof myFunction); // function object
 console.log(typeof(Id)); // symbol
 
+//+++++++++++++
+
+
+// STACK (Primitive) and HEAP (Non-Primaitive refrence) MEMEORY 
+
+//ex stack 
+
+let myYoutubeName = "deepak.kom";
+
+let anotherNmae = myYoutubeName;
+
+anotherNmae = "chaiAndCode";
+
+console.log(myYoutubeName);
+console.log(anotherNmae);
+
+//ex heap copy by refernce
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "@jhff"
+}
+let userTwo = userOne;
+
+userTwo.email = "deepak@mail.com";
+console.log(userOne);
+console.log(userTwo);
+
+
+
+
+
+
