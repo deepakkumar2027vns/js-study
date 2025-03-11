@@ -39,6 +39,8 @@ const myn2 = myArr.splice(1,3);// original array manupulate krta hai
 console.log(myn2);// [ 2, 3, 4 ]
 console.log(myArr); // delete ho gya after splice
 
+// use inspect console to read and learn 
+
 
 
 
